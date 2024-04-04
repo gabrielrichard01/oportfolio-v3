@@ -1,0 +1,126 @@
+.tech {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px;
+    box-shadow: 1px 3px 20px 0px black;
+}
+
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+.icons-ling {
+    font-size: 2.5em;
+    padding-top: 5px;
+}
+
+.tech-icons {
+    width: 80%;
+    display: flex;
+    padding: 40px 0;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    font-family: sans-serif;
+}
+
+.badge {
+    position: relative;
+    width: 4em;
+    height: 6.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    --c1: #ffeb3b;
+    --c2: #fbc02d;
+    --c3: #ffb300;
+    background: linear-gradient(to bottom right, var(--c1) 0%, var(--c2) 100%);
+    color: var(--c3);
+    border-radius: 10px;
+    margin: 0 1em;
+}
+
+.badge:before,
+.badge:after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+}
+
+.badge:before {
+    transform: rotate(60deg);
+}
+
+.badge:after {
+    transform: rotate(-60deg);
+}
+
+.circle {
+    z-index: 10;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.ribbon {
+    z-index: 11;
+    height: 20px;
+    color: #fff;
+    font-size: 14px;
+    background: linear-gradient(to bottom right, #555 0%, #333 100%);
+    align-self: flex-end;
+    border-radius: 4px;
+    padding: 3px 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.orange {
+    --c1: #ffc107;
+    --c2: #f57c00;
+    --c3: #f68401;
+}
+
+.purple {
+    --c1: #ab47bc;
+    --c2: #4527a0;
+    --c3: #7127a8;
+}
+
+.teal {
+    --c1: #4db6ac;
+    --c2: #00796b;
+    --c3: #34a297;
+}
+
+.blue {
+    --c1: #4fc3f7;
+    --c2: #2196f3;
+    --c3: #259af3;
+}
+
+.blue-dark {
+    --c1: #1976d2;
+    --c2: #283593;
+    --c3: #1c68c5;
+}
+
+.blue-light {
+    --c1: #2fcefa;
+    --c2: #0783a5;
+    --c3: #61dafb;
+}
+
+.green-dark {
+    --c1: #4caf50;
+    --c2: #1b5e20;
+    --c3: #00944a;
+}

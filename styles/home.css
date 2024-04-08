@@ -129,7 +129,7 @@ input[type="checkbox"]:checked~label {
 }
 
 
-button {
+.cv button {
     position: relative;
     background: #444;
     color: #fff;
@@ -143,7 +143,7 @@ button {
     transition: 0.2s;
 }
 
-button:hover {
+.cv button:hover {
     letter-spacing: 0.2rem;
     padding: 1.1rem 3.1rem;
     background: #39ff14;
@@ -151,7 +151,7 @@ button:hover {
     animation: box 2s infinite;
 }
 
-button::before {
+.cv button::before {
     content: "";
     position: absolute;
     inset: 2px;

@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/tech.css">
+    <link rel="stylesheet" href="./styles/project.css">
     <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
     <title>Gabriel Richard</title>
 </head>
@@ -363,6 +365,20 @@
                 </div>
             </div>
         </section>
+        <section id="project">
+            <div class="project">
+                <div class="project-title">
+                    <h2>
+                        <span class="text-animate">Projetos</span>
+                    </h2>
+                </div>
+                <div class="projects">
+                    <div class="projects-card">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="contact">
             <div class="contact">
                 <div class="contact-title">
@@ -389,8 +405,18 @@
             </div>
         </section>
     </main>
+    <footer class="container">
+        <p id="footer"></p>
+    </footer>
     <script src="./js/header.js"></script>
     <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+            var anoAtual = new Date().getFullYear();
+            var footer = document.getElementById('footer');
+            footer.innerHTML = `${anoAtual} &copy; - Todos os direitos reservados`;
+        };
+    </script>
 </body>
 
 </html>

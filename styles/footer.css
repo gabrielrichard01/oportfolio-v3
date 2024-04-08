@@ -1,0 +1,12 @@
+footer {
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 1px 3px 20px 0px black;
+}
+
+p {
+    text-align: center;
+    color: rgb(207, 207, 207);
+    font-family: "Poppins", sans-serif;
+}

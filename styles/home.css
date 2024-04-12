@@ -24,6 +24,7 @@ input[type="checkbox"] {
     cursor: pointer;
     height: 80px;
     width: 80px;
+    z-index: 100;
 }
 
 label {
@@ -33,7 +34,6 @@ label {
     width: 50px;
     background: #18191f;
     color: #555;
-    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;

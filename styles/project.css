@@ -28,12 +28,21 @@
     color: gray;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.project-tech{
+    text-align: center;
 }
 
 .project-tech i{
     font-size: 26px;
     margin-right: 10px;
     transition: all 0.3s;
+}
+
+.project-tech img{
+    width: 25px;
 }
 
 .project-button {

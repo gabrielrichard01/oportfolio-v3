@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" />
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/home.css">
@@ -14,57 +14,29 @@
     <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="shortcut icon" href="./assets/image/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title>Gabriel Richard</title>
 </head>
 
 <body>
     <header class="container">
-        <nav class="navigation">
-            <div class="logo">
-                <h1>GR</h1>
+        <nav>
+            <a href="#" class="logo">GR</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            <ul class="navigation-list">
-                <li class="list active">
-                    <a href="#home" class="link">
-                        <span class="icon">
-                            <i class="fa-solid fa-house-chimney"></i>
-                        </span>
-                        <span class="text">início</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#about" class="link">
-                        <span class="icon">
-                            <i class="fa-solid fa-user"></i>
-                        </span>
-                        <span class="text">Sobre mim</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#tech" class="link">
-                        <span class="icon">
-                            <i class="fa-brands fa-js"></i>
-                        </span>
-                        <span class="text">Tecnologia</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#project" class="link">
-                        <span class="icon">
-                            <i class="fa-solid fa-code"></i>
-                        </span>
-                        <span class="text">Projeto</span>
-                    </a>
-                </li>
-                <li class="list">
-                    <a href="#contact" class="link">
-                        <span class="icon">
-                            <i class="fa-solid fa-gear"></i>
-                        </span>
-                        <span class="text">Contato</span>
-                    </a>
-                </li>
-                <div class="indicator"></div>
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#tech">Tecnologia</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -251,10 +223,10 @@
                         </ul>
                     </div>
                     <div class="social-icons">
-                        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="github"><i class="fab fa-github"></i></a>
-                        <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/gabiielrichard/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/gabriel-richard/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/gabrielrichard01" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5511992557876" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
                     </div>
                     <div class="cv">
                         <a href="./Gabriel_Richard_Currículo.pdf" download>
@@ -381,20 +353,23 @@
                             <h3>Churrascômetro</h3>
                             <div class="project-tech">
                                 <i class="i-html fa-brands fa-html5" title="HTML"></i>
-                                <i class="fa-brands fa-css3" title="CSS"></i>
+                                <i class="fa-brands fa-css3-alt" title="CSS"></i>
                                 <i class="i-js fa-brands fa-js" title="JavaScript"></i>
                             </div>
                             <div class="project-description">
-                                <p>O Churrascrômetro é um site que ajuda a calcular a quantidade de comida e bebida necessária para um churrasco. Basta informar o número de convidados e o site fornece uma lista detalhada do que será necessário, incluindo a quantidade de carnes, acompanhamentos, bebidas e outros itens.</p>
+                                <p>O Churrascrômetro é um site que ajuda a calcular a quantidade de comida e bebida
+                                    necessária para um churrasco. Basta informar o número de convidados e o site fornece
+                                    uma lista detalhada do que será necessário, incluindo a quantidade de carnes,
+                                    acompanhamentos, bebidas e outros itens.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/churrascometro" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://churrascometro-amber.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -413,16 +388,19 @@
                                 <img src="./assets/image/jquery-dark.png" alt="logo do jquery" title="jquery">
                             </div>
                             <div class="project-description">
-                                <p>O Tour World é um site abrangente de planejamento de viagens que oferece aos usuários uma ampla gama de opções de destinos e atividades de turismo em todo o mundo. Com um foco em experiências autênticas e personalizadas, o Tour World ajuda os viajantes a descobrir locais impressionantes.</p>
+                                <p>O Tour World é um site abrangente de planejamento de viagens que oferece aos usuários
+                                    uma ampla gama de opções de destinos e atividades de turismo em todo o mundo. Com um
+                                    foco em experiências autênticas e personalizadas, o Tour World ajuda os viajantes a
+                                    descobrir locais impressionantes.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/tourworld" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://tourworld.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -448,16 +426,20 @@
                                 <i class="fa-brands fa-bootstrap" title="Bootstrap"></i>
                             </div>
                             <div class="project-description">
-                                <p>Richard Construções é um site completo e confiável para encontrar todos os materiais de construção que você precisa. Com uma ampla variedade de produtos de alta qualidade, desde tijolos e cimentos até ferramentas e acabamentos, o site oferece uma experiência conveniente para profissionais da construção e consumidores em geral.</p>
+                                <p>Richard Construções é um site completo e confiável para encontrar todos os materiais
+                                    de construção que você precisa. Com uma ampla variedade de produtos de alta
+                                    qualidade, desde tijolos e cimentos até ferramentas e acabamentos, o site oferece
+                                    uma experiência conveniente para profissionais da construção e consumidores em
+                                    geral.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/richard-construcoes" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://richard-construcoes.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -471,19 +453,23 @@
                             <h3>Lista de tarefas</h3>
                             <div class="project-tech">
                                 <i class="fa-brands fa-react" title="React"></i>
-                                <img src="./assets/image/typescript-dark.png" alt="logo do typescript" title="Typescript">
+                                <img src="./assets/image/typescript-dark.png" alt="logo do typescript"
+                                    title="Typescript">
                             </div>
                             <div class="project-description">
-                                <p>O site de lista de tarefas desenvolvido com React e TypeScript é uma aplicação web que permite aos usuários criar, organizar e gerenciar suas tarefas de forma eficiente. Com uma interface intuitiva e responsiva, os usuários podem adicionar novas tarefas, marcar como concluídas e definir prioridades.</p>
+                                <p>O site de lista de tarefas desenvolvido com React e TypeScript é uma aplicação web
+                                    que permite aos usuários criar, organizar e gerenciar suas tarefas de forma
+                                    eficiente. Com uma interface intuitiva e responsiva, os usuários podem adicionar
+                                    novas tarefas, marcar como concluídas e definir prioridades.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/minhas-tarefas" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://minhas-tarefas-five-eta.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -503,19 +489,24 @@
                             <h3>eFood</h3>
                             <div class="project-tech">
                                 <i class="fa-brands fa-react" title="React"></i>
-                                <img src="./assets/image/typescript-dark.png" alt="logo do typescript" title="Typescript">
+                                <img src="./assets/image/typescript-dark.png" alt="logo do typescript"
+                                    title="Typescript">
                             </div>
                             <div class="project-description">
-                                <p>Bem-vindo ao eFood, o seu destino gastronômico online! O eFood é um site de restaurante que reúne uma ampla variedade de opções culinárias em um só lugar, oferecendo uma experiência de entrega de comida conveniente e deliciosa. Com um simples clique, você terá acesso a uma infinidade de restaurantes locais e pratos saborosos, desde cozinha internacional até comida caseira reconfortante.</p>
+                                <p>Bem-vindo ao eFood, o seu destino gastronômico online! O eFood é um site de
+                                    restaurante que reúne uma ampla variedade de opções culinárias em um só lugar,
+                                    oferecendo uma experiência de entrega de comida conveniente e deliciosa. Com um
+                                    simples clique, você terá acesso a uma infinidade de restaurantes locais e pratos
+                                    saborosos, desde cozinha internacional até comida caseira reconfortante.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/efood" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://efood-eight-xi.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -529,18 +520,22 @@
                             <h3>Calculadora</h3>
                             <div class="project-tech">
                                 <i class="icons-ling fa-brands fa-vuejs"></i>
+                                <i class="i-html fa-brands fa-html5" title="HTML"></i>
+                                <i class="i-js fa-brands fa-js" title="JavaScript"></i>
                             </div>
                             <div class="project-description">
-                                <p>O site de calculadora em tempo real desenvolvido com Vue é uma aplicação web interativa que permite aos usuários realizar cálculos matemáticos de forma rápida e precisa.</p>
+                                <p>O site de calculadora em tempo real desenvolvido com Vue é uma aplicação web
+                                    interativa que permite aos usuários realizar cálculos matemáticos de forma rápida e
+                                    precisa.</p>
                             </div>
                             <div class="cv project-button">
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://github.com/gabrielrichard01/calculadora_vue" target="_blank">
                                     <button type="button">
                                         <span class="text-button">Repositório</span>
                                         <i class="cv-icon"></i>
                                     </button>
                                 </a>
-                                <a href="./Gabriel_Richard_Currículo.pdf" download>
+                                <a href="https://calculadora-vue-eight.vercel.app/" target="_blank">
                                     <button type="button">
                                         <span class="text-button">site</span>
                                         <i class="cv-icon"></i>
@@ -573,10 +568,10 @@
                     </div>
                 </div>
                 <div class="social-icons">
-                    <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" class="github"><i class="fab fa-github"></i></a>
-                    <a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/gabiielrichard/" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/gabriel-richard/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/gabrielrichard01" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511992557876" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </section>
@@ -585,6 +580,7 @@
         <p id="footer"></p>
     </footer>
     <script src="./js/header.js"></script>
+    <script src="./js/hambuger.js"></script>
     <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
     <script>
         window.onload = function () {

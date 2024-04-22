@@ -6,14 +6,35 @@
     padding: 12px;
     box-shadow: 1px 3px 20px 0px black;
     align-items: center;
+
+    @media (max-width: 900px) {
+        display: block;
+        text-align: center;
+    }
 }
 
 .project-image img {
     width: 80%;
+
+    @media (max-width: 900px) {
+        display: none;
+    }
 }
 
 .project-text {
     width: 90%;
+    
+    @media (max-width: 900px) {
+        width: 100%;
+    }
+}
+
+.project-text p{
+    @media (max-width: 900px) {
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
 }
 
 .project-text h3 {
@@ -39,6 +60,10 @@
 
 .project-button {
     text-align: center;
+}
+
+.project-button button{
+    margin-bottom: 10px;
 }
 
 .reverse {

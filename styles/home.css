@@ -18,6 +18,16 @@ input[type="checkbox"] {
     height: 80px;
     width: 80px;
     z-index: 100;
+
+    @media (max-width: 900px) {
+        height: 40px;
+        width: 40px;
+
+        @media (max-width: 400px) {
+            height: 30px;
+            width: 30px;
+        }
+    }
 }
 
 label {
@@ -37,6 +47,19 @@ label {
         4px 4px 6px rgba(0, 0, 0, 0.2),
         inset -1px -1px 4px rgba(255, 255, 255, 0.05),
         inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+
+    @media (max-width: 900px) {
+        height: 28px;
+        width: 28px;
+        font-size: 18px;
+        border-radius: 3px;
+
+        @media (max-width: 400px) {
+            height: 23px;
+            width: 23px;
+            font-size: 14px;
+        }
+    }
 }
 
 input[type="checkbox"]:checked~label {
@@ -82,7 +105,7 @@ input[type="checkbox"]:checked~label {
     margin-top: 30px;
 }
 
-.social-icons > a {
+.social-icons>a {
     display: inline-block;
     margin: 0 20px;
     width: 50px;
@@ -94,30 +117,38 @@ input[type="checkbox"]:checked~label {
     color: #fff;
     font-size: 24px;
     transition: all 0.3s ease-in-out;
+
+    @media (max-width: 400px) {
+        margin: 0 12px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
 }
 
-.social-icons > a:hover {
+.social-icons>a:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.social-icons > a.whatsapp:hover {
+.social-icons>a.whatsapp:hover {
     background-color: #307d24;
 }
 
-.social-icons > a.instagram:hover {
+.social-icons>a.instagram:hover {
     background-color: #e1306c;
 }
 
-.social-icons > a.linkedin:hover {
+.social-icons>a.linkedin:hover {
     background-color: #0077b5;
 }
 
-.social-icons > a.github:hover {
+.social-icons>a.github:hover {
     background-color: #5b135a;
 }
 
-.cv{
+.cv {
     margin-top: 20px;
 }
 
@@ -129,11 +160,16 @@ input[type="checkbox"]:checked~label {
     text-decoration: none;
     text-transform: uppercase;
     border: none;
-    letter-spacing: 0.1rem;
-    font-size: 1rem;
-    padding: 1rem 3rem;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding: 18px 40px;
     cursor: pointer;
     transition: 0.2s;
+
+    @media (max-width: 400px) {
+        font-size: 12px;
+        padding: 14px 28px;
+    }
 }
 
 .cv button:hover {
@@ -167,7 +203,7 @@ input[type="checkbox"]:checked~label {
     position: absolute;
     width: 10px;
     height: 2px;
-    border: 2px solid #39ff14 ;
+    border: 2px solid #39ff14;
     background: #272822;
     left: 80%;
     top: -2px;
@@ -234,4 +270,12 @@ input[type="checkbox"]:checked~label {
     width: 80%;
     margin: 0 auto;
     display: flex;
+
+    @media (max-width: 900px) {
+        width: 65%;
+
+        @media (max-width: 600px) {
+            display: none;
+        }
+    }
 }

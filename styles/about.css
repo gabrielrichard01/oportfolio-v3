@@ -21,6 +21,11 @@ h2 {
     -webkit-animation: aitf 1s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
+
+    @media (max-width: 400px) {
+        font-size: 40px;
+        padding: 5px 0;
+    }
 }
 
 @-webkit-keyframes aitf {
@@ -44,4 +49,8 @@ h2 {
     width: 80%;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
+
+    @media (max-width: 900px) {
+        width: 90%;
+    }
 }

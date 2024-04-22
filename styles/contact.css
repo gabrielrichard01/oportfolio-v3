@@ -1,4 +1,4 @@
-.contact{
+.contact {
     margin-bottom: 20px;
 }
 
@@ -6,6 +6,10 @@
     color: #cfcfcf;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
+
+    @media (max-width: 400px) {
+        font-size: 14px;
+    }
 }
 
 .contact-icon {
@@ -15,7 +19,6 @@
 }
 
 .contact-icon > a {
-    display: inline-block;
     margin: 0 20px;
     width: 50px;
     height: 50px;
@@ -26,9 +29,17 @@
     color: #fff;
     font-size: 24px;
     transition: all 0.3s ease-in-out;
+
+    @media (max-width: 400px) {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 0 10px;
+    }
 }
 
-.contact-icon > a:hover {
+.contact-icon>a:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

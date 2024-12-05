@@ -10,7 +10,7 @@ html{
 }
 
 body {
-    background-color: #1d1d1d;
+    background-color: #5200b1;
     padding: 10px 0;
 }
 
@@ -20,7 +20,6 @@ body {
 }
 
 section {
-    padding: 50px 0px 50px;
     max-width: 100%;
     border-radius: 10px;
     margin: 35px 0;

@@ -1,0 +1,27 @@
+.presentation-me{
+    margin: 40px;
+    display: flex;
+    text-align: center;
+}
+
+.presentation-video,
+.photo {
+    display: flex;
+    margin: 0 auto;
+    max-width: 50%;
+    @media (max-width: 900px) {
+        max-width: 100%;
+    }
+}
+
+.presentation-video video{
+    width: 100%;
+}
+
+img{
+    width: 250px;
+
+    @media (max-width: 900px) {
+        display: none;
+    }
+}

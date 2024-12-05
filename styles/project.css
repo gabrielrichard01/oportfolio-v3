@@ -1,72 +1,22 @@
-.projects-card {
-    display: flex;
-    width: 100%;
-    border-radius: 30px;
-    margin-top: 20px;
-    padding: 12px;
-    box-shadow: 1px 3px 20px 0px black;
-    align-items: center;
-
-    @media (max-width: 900px) {
-        display: block;
-        text-align: center;
-    }
-}
-
-.project-image img {
-    width: 80%;
-
-    @media (max-width: 900px) {
-        display: none;
-    }
-}
-
-.project-text {
-    width: 90%;
-    
-    @media (max-width: 900px) {
-        width: 100%;
-    }
-}
-
-.project-text p{
-    @media (max-width: 900px) {
-        width: 80%;
-        display: flex;
-        margin: 0 auto;
-    }
-}
-
-.project-text h3 {
-    color: gray;
-    font-size: 26px;
+.horizontal-title h4, .vertical-title h4{
+    color: rgb(255, 245, 245);
+    font-size: 60px;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.project-tech{
+.horizontal, .vertical{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
     text-align: center;
-}
+    @media (max-width: 900px) {
+        grid-template-columns: 1fr 1fr;
 
-.project-tech i{
-    font-size: 26px;
-    margin-right: 10px;
-    transition: all 0.3s;
-}
-
-.project-tech img{
-    width: 25px;
-}
-
-.project-button {
-    text-align: center;
-}
-
-.project-button button{
-    margin-bottom: 10px;
-}
-
-.reverse {
-    display: flex;
-    flex-direction: row-reverse;
+        @media (max-width: 400px) {
+            grid-template-columns: 1fr;
+        }
+    }
 }

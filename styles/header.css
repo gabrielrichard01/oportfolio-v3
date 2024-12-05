@@ -4,7 +4,7 @@ header {
     left: 0;
     width: 100%;
     box-shadow: 1px 3px 20px 0px black;
-    background-color: #1D1D1D;
+    background-color: #5200b1;
     color: #fff;
     max-width: 100%;
     border-radius: 10px;
@@ -18,7 +18,7 @@ header {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    color: #29FD53;
+    color: #fcf1f1;
 }
 
 header nav{
@@ -69,7 +69,7 @@ header nav{
         right: 0;
         width: 50vw;
         height: 92vh;
-        background: #1D1D1D;
+        background: #5200b1;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;

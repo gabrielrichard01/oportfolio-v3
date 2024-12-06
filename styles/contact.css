@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 20px;
 
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
         font-size: 14px;
     }
 }
@@ -30,7 +30,7 @@
     font-size: 24px;
     transition: all 0.3s ease-in-out;
 
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
         font-size: 18px;
         width: 40px;
         height: 40px;

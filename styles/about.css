@@ -22,7 +22,7 @@ h2 {
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
 
-    @media (max-width: 400px) {
+    @media (max-width: 500px) {
         font-size: 40px;
         padding: 5px 0;
     }
